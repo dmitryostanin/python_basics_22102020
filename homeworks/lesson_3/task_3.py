@@ -11,6 +11,6 @@ def my_func(arg_1: float, arg_2: float, arg_3: float) -> float:
 
 number_1, number_2, number_3 = 9, 2, 3
 try:
-    print(f'Sum of two max nubers: {my_func(number_1, number_2, number_3)}')
+    print(f'Sum of two max numbers: {my_func(number_1, number_2, number_3)}')
 except ValueError as ve:
     print(f'Wrong data!!! Error: {ve}')
