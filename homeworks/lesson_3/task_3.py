@@ -9,7 +9,7 @@ def my_func(arg_1: float, arg_2: float, arg_3: float) -> float:
     return arg_1 + arg_2 + arg_3 - min_in_3(arg_1, arg_2, arg_3)
 
 
-number_1, number_2, number_3 = , 2, 3
+number_1, number_2, number_3 = 9, 2, 3
 try:
     print(f'Sum of two max nubers: {my_func(number_1, number_2, number_3)}')
 except ValueError as ve:
