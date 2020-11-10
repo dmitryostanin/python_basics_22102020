@@ -1,4 +1,4 @@
-def fact_gen(n):
+def fact(n):
     if n == 0:
         yield 1
     else:
@@ -8,5 +8,5 @@ def fact_gen(n):
             yield result
 
 
-for index, item in enumerate(fact_gen(15), 1):
+for index, item in enumerate(fact(15), 1):
     print(f'{index}! = {item}')
